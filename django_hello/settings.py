@@ -25,7 +25,8 @@ SECRET_KEY = '12345'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['stephenongpython36.onglab.com', '0.0.0.0']
+ALLOWED_HOSTS = ['stephenongpython36.onglab.com',
+                 'stephenongpython36.azurewebsites.net', '0.0.0.0']
 
 # [os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_HOSTNAME' in os.environ else []
 

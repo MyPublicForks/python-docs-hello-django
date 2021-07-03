@@ -1,4 +1,2 @@
 [config]
 SCM_DO_BUILD_DURING_DEPLOYMENT=true
-PRE_BUILD_COMMAND=echo "Hello Pre build here"
-POST_BUILD_COMMAND=source ./antenv3.6/bin/activate && pip install --upgrade pip && pip --version && pip install tensorflow==2.5.0 && pip list && deactivate
