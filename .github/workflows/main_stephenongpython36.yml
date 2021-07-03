@@ -5,10 +5,14 @@
 name: Build and deploy Python app to Azure Web App - stephenongpython36
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+    
+
+# on:
+#   push:
+#     branches:
+#       - main
+#   workflow_dispatch:
 
 jobs:
   build:
